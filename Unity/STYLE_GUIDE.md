@@ -26,12 +26,6 @@ When updating an asset, just replace the old asset. Do not add the new asset wit
 
 Use PascalCase for naming assets (every word starts with a capital letter). Do not add undersocres or spaces between words.
 
----
-
-:octagonal_sign:  Artists can stop here
-
----
-
 ## Code Style
 
 Code Style
