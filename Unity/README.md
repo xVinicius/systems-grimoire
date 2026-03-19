@@ -41,6 +41,14 @@ Hierarchical UI management system.
 - **`SubUserInterface`** - Overlay/modal panels with priority tags
 - **`UICarousel`** - Paginated horizontal scroll with lerp animation
 
+### Binary Save System (`BinarySaveSystem/`)
+Binary serialization-based save/load system for campaign data.
+
+- **`IBinarySaveData`** - Interface for types that can be binary serialized, with extension methods for `List<T>` read/write
+- **`SaveCampaignData`** - Campaign save container holding quests, world state, and metadata
+- **`SaveLoadManager`** - Static API for writing, reading, and deleting save files with versioning support
+- **`QuestSaveData`** - Serializable quest progress data implementing `IBinarySaveData`
+
 ## Architecture Overview
 
 ```
