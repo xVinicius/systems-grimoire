@@ -26,10 +26,6 @@ When updating an asset, just replace the old asset. Do not add the new asset wit
 
 Use PascalCase for naming assets (every word starts with a capital letter). Do not add undersocres or spaces between words.
 
-## Code Style
-
-Code Style
-
 ## Whitespace
 
 Put spaces around operators like =, ==, <, >, +, -, etc. Put spaces after commas. Do not put space before or after parenthesis in function calls or if/while/for statements. Put whitespaces around {}.
